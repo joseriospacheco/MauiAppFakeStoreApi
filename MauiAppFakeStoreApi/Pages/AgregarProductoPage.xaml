@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppFakeStoreApi.Pages.AgregarProductoPage"
+             Title="AgregarProducto">
+    <VerticalStackLayout
+        Padding="30,0"
+        Spacing="25">
+        <Label Text="Títilo" />
+
+        <Entry  x:Name="EntryTitulo"/>
+
+        <Label 
+            Text="Precio" />
+
+        <Entry x:Name="EntryPrecio"/>
+
+
+        <Label 
+            Text="Descripción" />
+
+        <Entry x:Name="EntryDescripcion" />
+
+        <Label 
+            Text="Categoría"/>
+
+        <Entry x:Name="EntryCategoria" />
+
+
+        <Button Text="Agregar" Clicked="BntAgegarProductoClicked"/>
+
+    </VerticalStackLayout>
+</ContentPage>
