@@ -15,6 +15,11 @@ namespace MauiAppFakeStoreApi
             await Navigation.PushAsync(new AgregarProductoPage());
 
         }
+
+        private async void BtnConsultarProducto_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ConsultarProductoPage());
+        }
     }
 
 }

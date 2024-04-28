@@ -2,7 +2,7 @@
 
 namespace MauiAppFakeStoreApi.Models
 {
-    public class Product
+    public class CreateProduct
     {
 
         [JsonPropertyName("title")]

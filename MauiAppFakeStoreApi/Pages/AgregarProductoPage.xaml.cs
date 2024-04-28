@@ -13,7 +13,7 @@ public partial class AgregarProductoPage : ContentPage
     private async void BntAgegarProductoClicked(object sender, EventArgs e)
     {
 
-		var product = new Product();
+		var product = new CreateProduct();
 		product.Title = EntryTitulo.Text;
         product.Price = Convert.ToDecimal(EntryPrecio.Text);
         product.Description = EntryDescripcion.Text;
